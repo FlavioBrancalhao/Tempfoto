@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="imagem/png" href="../img/icone.png" />
+  <script src="js.js"></script>
+<script>
+function myFunction() {
+    
+    var x = document.getElementById("drop");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+     
+    } else {
+      x.style.display = "flex";
+      
+    }
+    
+}
+function myfecha(){
+  var x = document.getElementById("drop");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+   
+  } else {
+    x.style.display = "none";
+    
+  }
+}
+ function visualizer(){
+      var foto1 = document.getElementById("foto1");
+      if (foto1.style.display === "flex") {
+          foto1.style.display = "none";
+      }else{
+        foto1.style.display = "flex";
+      }
+ }
+ function visualizer2(){
+  var foto2 = document.getElementById("foto2");
+  if (foto2.style.display === "flex") {
+      foto2.style.display = "none";
+  }else{
+    foto2.style.display = "flex";
+  }
+}
+function visualizer3(){
+  var foto3 = document.getElementById("foto3");
+  if (foto3.style.display === "flex") {
+      foto3.style.display = "none";
+  }else{
+    foto3.style.display ="flex";
+  }
+}
+function visualizer4(){
+  var foto4 = document.getElementById("foto4");
+  if (foto4.style.display === "flex") {
+      foto4.style.display = "none";
+  }else{
+    foto4.style.display = "flex";
+  }
+}
+function visualizer5(){
+var foto5 = document.getElementById("foto5");
+if (foto5.style.display === "flex") {
+  foto5.style.display = "none";
+}else{
+foto5.style.display = "flex";
+}
+}
+function visualizer6(){
+var foto6 = document.getElementById("foto6");
+if (foto6.style.display === "flex") {
+  foto6.style.display = "none";
+}else{
+foto6.style.display ="flex";
+}
+}
+function visualizer7(){
+  var foto7 = document.getElementById("foto7");
+  if (foto7.style.display === "flex") {
+      foto7.style.display = "none";
+  }else{
+    foto7.style.display = "flex";
+  }
+}
+function visualizer8(){
+var foto8 = document.getElementById("foto8");
+if (foto8.style.display === "flex") {
+  foto8.style.display = "none";
+}else{
+foto8.style.display = "flex";
+}
+}
+function visualizer9(){
+var foto9 = document.getElementById("foto9");
+if (foto9.style.display === "flex") {
+  foto9.style.display = "none";
+}else{
+foto9.style.display ="flex";
+}
+}
+
+function fecha(){
+  var fecha1 = document.getElementById("foto1");
+  var fecha2 = document.getElementById("foto2");
+  var fecha3 = document.getElementById("foto3");
+  var fecha4 = document.getElementById("foto4");
+  var fecha5 = document.getElementById("foto5");
+  var fecha6 = document.getElementById("foto6");
+  var fecha7 = document.getElementById("foto7");
+  var fecha8 = document.getElementById("foto8");
+  var fecha9 = document.getElementById("foto9");
+  if (fecha1.style.display == "flex") {
+      fecha1.style.display = "none";
+  }else{
+    fecha1.style.display = "none";
+  }
+  if (fecha2.style.display == "flex") {
+    fecha2.style.display = "none";
+}else{
+  fecha2.style.display = "none";
+}
+if (fecha3.style.display == "flex") {
+  fecha3.style.display = "none";
+}else{
+fecha3.style.display = "none";
+}
+if (fecha4.style.display == "flex") {
+  fecha4.style.display = "none";
+}else{
+fecha4.style.display = "none";
+}
+if (fecha5.style.display == "flex") {
+  fecha5.style.display = "none";
+}else{
+fecha5.style.display = "none";
+}
+if (fecha6.style.display == "flex") {
+  fecha6.style.display = "none";
+}else{
+fecha6.style.display = "none";
+}
+if (fecha7.style.display == "flex") {
+  fecha7.style.display = "none";
+}else{
+fecha7.style.display = "none";
+}
+if (fecha8.style.display == "flex") {
+  fecha8.style.display = "none";
+}else{
+fecha8.style.display = "none";
+}
+if (fecha9.style.display == "flex") {
+  fecha9.style.display = "none";
+}else{
+fecha9.style.display = "none";
+}
+}
+
+
+</script>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    width: 100%;
+    height: auto;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+background-color: #ffcb69;
+
+position: fixed;
+}
+.some{
+    display: block;
+    
+}
+header i{
+    color: white;
+    margin-left: 10px;
+    font-size: 50px;
+    
+}
+header .some a {
+    font-size: 1.7em;
+   
+}
+#drop{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: white;
+    z-index: 98;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu{
+    display: block;
+    width: 50%; 
+    height: auto;
+    margin: auto;
+    max-width: 250px;
+}
+.menu img{
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.menu ul{
+    list-style: none;
+    text-align: center;
+    
+}
+.menu ul li{
+    line-height: 30px;
+}
+.menu a{
+    color: #ffcb69;
+    font-size: 1.7em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bio{
+    width: 100%;
+    height: 300px;
+    background: url('pphoto2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.bio h3{
+     margin-top: 80px;
+}
+span{
+    text-align: center;
+}
+.biomax{
+    width: 60%;
+    height: 90%;
+    color: white;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.bio h3{
+    margin: auto;
+}
+.bio p{
+    margin: auto;
+}
+.escuro{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.274);
+}
+main{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.slider {
+   overflow-y: scroll;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    max-width: 1200px;
+   
+   
+}
+
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 85%;
+    vertical-align: top;
+}
+
+#foto1{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto2{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto3{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto4{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto5{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto6{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto7{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto8{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+#foto9{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    
+}
+
+.mostrar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.753);
+    z-index: 99;
+}
+.mostrar img{
+    width: 100%;
+    height: auto;
+    
+}
+.mostrar button{
+    width: 50px;
+    height: 50px;
+    background: inherit;
+}
+.titu{
+    text-align: center;
+    background: #ffcb69;
+}
+.value{
+    background: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+
+}
+.valores{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+}
+footer{
+    background-color: #363636;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copia{
+    display: none;
+}
+@media  screen and (min-width: 1190px) {
+    .some{
+        display: none;
+    }
+    .dividir{
+        width: 70%;
+        margin-left: auto;
+    }
+  
+    .copia{
+        display: flex;
+        width: 30%;
+        height: 100%;
+        position: fixed;
+        background: white;
+        z-index: 98;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .slider{
+        max-width: none;
+        width: 100%;
+        overflow-y: auto;
+    }
+}
+
+</style>
+  <title>Photo template</title>
+</head>
+
+<body>
+  <header>
+    
+    <div id="foto1" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo1.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto2" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo2.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto3" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo3.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto4" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo4.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto5" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo5.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto6" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo6.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto7" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo7.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto8" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo8.jpg" alt="">
+      </div>
+    </div>
+    <div id="foto9" onclick="fecha()">
+
+      <div class="mostrar">
+
+        <img src="exemplo9.jpg" alt="">
+      </div>
+    </div>
+    <div class="some">
+
+      <a href="javascript:void(0);" onclick="myFunction()" id="tcore"><i class="fa fa-bars"></i></a>
+    </div>
+    
+    <nav id="drop">
+      <div class="menu">
+        <img src="pphoto.jpg" alt="">
+        <ul>
+          <li><a href="#inicio" onclick="myfecha()"> Inicio</a></li>
+          <li><a href="#albuns" onclick="myfecha()"> Álbuns </a></li>
+          <li><a href="#valores" onclick="myfecha()"> Valores </a></li>
+          <li><a href="#contato" onclick="myfecha()"> Contato </a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="copia">
+      <div class="menu">
+        <img src="pphoto.jpg" alt="">
+        <ul>
+          <li><a href="#inicio"> Inicio</a></li>
+          <li><a href="#albuns"> Álbuns </a></li>
+          <li><a href="#valores"> Valores </a></li>
+          <li><a href="#contato"> Contato </a></li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+  </header>
+  <div class="dividir">
+  <main>
+    
+    <div class="bio">
+      <div class="escuro">
+        <h3>Fotográfo Nome</h3>
+        <div class="biomax" id="inicio">
+
+          <p><span> Nome empresa ou pessoa</span> <br>
+            descrição sobre oque faz
+           </p>
+        </div>
+      </div>
+    </div>
+    <div class="titu" id="albuns">
+      <h3>Albuns</h3>
+      <h4>Paisagem</h4>
+      <div class="slider">
+
+        <img onclick="visualizer()" src="exemplo1.jpg" />
+        <img onclick="visualizer2()" src="exemplo2.jpg" />
+        <img onclick="visualizer3()" src="exemplo3.jpg" />
+
+      </div>
+      <div class="titu">
+        <h4>Casal</h4>
+        <div class="slider">
+
+          <img onclick="visualizer4()" src="exemplo4.jpg" />
+          <img onclick="visualizer5()" src="exemplo5.jpg" />
+          <img onclick="visualizer6()" src="exemplo6.jpg" />
+
+        </div>
+        <div class="titu">
+          <h4>Gatos</h4>
+          <div class="slider">
+
+            <img onclick="visualizer7()" src="exemplo7.jpg" />
+            <img onclick="visualizer8()" src="exemplo8.jpg" />
+            <img onclick="visualizer9()" src="exemplo9.jpg" />
+
+          </div>
+        </div>
+        <div class="value" id="valores">
+          <div class="valor">
+            <h3>valor</h3>
+            <h4>Eventos</h4>
+          </div>
+          <div class="valores">
+            <div class="descricao">
+              <li>Casamento</li>
+              <li>aniversario</li>
+              <li>dia dos noivos</li>
+              <li>dia das mães</li>
+              <li>marketing loja</li>
+            </div>
+            <div class="dinheiro">
+              <li>400,00</li>
+              <li>400,00</li>
+              <li>350,00</li>
+              <li>275,00</li>
+              <li>300,00</li>
+            </div>
+          </div>
+          <div class="valor">
+            
+            <h4>Pacotes de books</h4>
+          </div>
+          <div class="valores">
+            <div class="quantidade">
+              <li>Quantidade</li>
+              <li>15</li>
+              <li>25</li>
+              <li>35</li>
+              <li>50</li>
+            </div>
+            <div class="Moda">
+              <li>moda</li>
+              <li>150,00</li>
+              <li>200,00</li>
+              <li>250,00</li>
+              <li>350,00</li>
+            </div>
+            <div class="casamento">
+              <li>Casamento</li>
+              <li>150,00</li>
+              <li>200,00</li>
+              <li>250,00</li>
+              <li>350,00</li>
+            </div>
+            <div class="aniversario">
+              <li>aniversario</li>
+              <li>150,00</li>
+              <li>200,00</li>
+              <li>250,00</li>
+              <li>350,00</li>
+            </div>
+          </div>
+            <div class="valor">
+              
+              <h4>impressão</h4>
+              <p>3,00 cada</p>
+            </div>
+         
+       
+  </main>
+  <footer id="contato">
+    <h3>Contato</h3>
+    <div class="divers">
+      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      <i class="fa fa-telegram" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+    </div>
+ 
+  
+  </footer>
+</div>
+
+</body>
+
+</html>
